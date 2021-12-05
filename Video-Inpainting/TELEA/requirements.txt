@@ -1,0 +1,8 @@
+tensorflow
+Pillow
+numpy
+jupyter
+matplotlib
+PrettyTable
+toml
+opencv-python==4.3.0.38

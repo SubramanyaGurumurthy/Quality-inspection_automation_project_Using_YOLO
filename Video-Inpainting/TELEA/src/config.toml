@@ -1,0 +1,28 @@
+# This is the configuration file for the video inpainting software
+
+title = "Video Inpainting"
+
+[camera-or-video]
+# choose if live feed from a camera or a pre-recorded video shall be used for inpainting
+camera = false
+video = true
+
+[camera]
+# If there are multiple cameras attached to the computer, choose the desired index (default 0) 
+camera-index = 0
+# specify the resolution of the used camera. Format: [width, height]
+camera-resolution = []
+
+[video]
+# specify the absolute path to the video to be inpainted
+path-to-video = ""
+# specify the resolution of the used video. Format: [width, height]
+video-resolution = []
+
+[save-video]
+# set true or false if the segmentation/masking and inpainted video shall be saved
+save-segmentation-masking-result = false
+save-inpainting-result = false
+# specify the absolute path to the video to be inpainted e.g. "<absolute-path>.output_inpainting.mp4"
+path-to-segmentation-masking-result-video = ""
+path-to-inpainting-result-video = ""

@@ -1,0 +1,23 @@
+body {
+    margin: 0px;
+    font-family: Gill Sans Extrabold, sans-serif; 
+}
+.table {
+    overflow: scroll;
+    max-width: 240px;
+    max-height: 600px;
+    float: left;
+}
+.mainDiv {
+    margin: 20px;
+}
+.container {
+    margin: 0%;
+    padding: 0%;
+}
+.image {
+    height: 600px;
+    width: 600px;
+    margin-left: 20px;
+    float: left;
+}

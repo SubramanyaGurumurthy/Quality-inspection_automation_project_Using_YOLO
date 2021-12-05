@@ -1,0 +1,8 @@
+numpy==1.20.0
+pandas==1.2.1
+plotly==4.14.3
+dash==1.20.0
+opcua==0.98.13
+requests==2.26.0
+opencv-python==4.5.3.56
+dash-bootstrap-components
